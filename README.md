@@ -18,6 +18,18 @@ Certifique-se de ter os seguintes requisitos atendidos antes de começar a traba
 
 [![Run in Insomnia}](https://insomnia.rest/images/run.svg)](https://insomnia.rest/run/?label=academia-api&uri=https%3A%2F%2Fraw.githubusercontent.com%2FLucasRonaldo%2Facademia-api%2Fmaster%2Fimsominia.json%3Ftoken%3DGHSAT0AAAAAACGBYEUCQG6JSALHG4MSJIKSZGSEWFA)
 
+## Funcionalidades
+
+1. Cadastro de [Clientes](clientes.md)
+
+2. Cadastro de [Fornecedores](fornecedores.md)
+
+3. Cadastro de [Funcionarios](funcionarios.md)
+
+4. Cadastro de [Produtos](produtos.md)
+
+
+
 ## Como utilizar este repositório
 
 
@@ -29,6 +41,7 @@ Certifique-se de ter os seguintes requisitos atendidos antes de começar a traba
 ```
 cd academia-api
 ```
+
 
 ## Licença
 
