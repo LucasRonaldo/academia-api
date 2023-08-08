@@ -20,13 +20,13 @@ Certifique-se de ter os seguintes requisitos atendidos antes de começar a traba
 
 ## Funcionalidades
 
-1. Cadastro de [Clientes](clientes.md)
+* Cadastro de [Clientes](clientes.md)
 
-2. Cadastro de [Fornecedores](fornecedores.md)
+* Cadastro de [Fornecedores](fornecedores.md)
 
-3. Cadastro de [Funcionarios](funcionarios.md)
+* Cadastro de [Funcionarios](funcionarios.md)
 
-4. Cadastro de [Produtos](produtos.md)
+* Cadastro de [Produtos](produtos.md)
 
 
 
