@@ -14,7 +14,12 @@ Certifique-se de ter os seguintes requisitos atendidos antes de começar a traba
 - Git instalado
 - Editor de código de sua preferência
 
+## Insominia
+
+[![Run in Insomnia}](https://insomnia.rest/images/run.svg)](https://insomnia.rest/run/?label=academia-api&uri=https%3A%2F%2Fraw.githubusercontent.com%2FLucasRonaldo%2Facademia-api%2Fmaster%2Fimsominia.json%3Ftoken%3DGHSAT0AAAAAACGBYEUCQG6JSALHG4MSJIKSZGSEWFA)
+
 ## Como utilizar este repositório
+
 
 1. Clone este repositório para o seu ambiente de desenvolvimento local utilizando o comando:
 ```
@@ -22,7 +27,7 @@ Certifique-se de ter os seguintes requisitos atendidos antes de começar a traba
 ```
 2. Acesse o diretório do projeto:
 ```
-cd exercicios-api
+cd academia-api
 ```
 
 ## Licença
