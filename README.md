@@ -16,13 +16,14 @@ Certifique-se de ter os seguintes requisitos atendidos antes de começar a traba
 
 ## Comandos
 * Model e Migration:
--> php artisan make:model SuaModel -m
+1. php artisan make:model SuaModel -m
 
 * Controller:
--> php artisan make:controller SeuController
+2. php artisan make:controller SeuController
 
 ->Criar rota store no arquivo api.php
--> FormRequest:
+
+3. FormRequest:
  php artisan make:request SeuRequest
 
 
