@@ -17,6 +17,7 @@ Certifique-se de ter os seguintes requisitos atendidos antes de começar a traba
 ## Comandos
 * Model e Migration:
 1. php artisan make:model SuaModel -m
+```
 
 * Controller:
 2. php artisan make:controller SeuController
