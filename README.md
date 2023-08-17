@@ -14,6 +14,18 @@ Certifique-se de ter os seguintes requisitos atendidos antes de começar a traba
 - Git instalado
 - Editor de código de sua preferência
 
+## Comandos
+* Model e Migration:
+-> php artisan make:model SuaModel -m
+
+* Controller:
+-> php artisan make:controller SeuController
+
+->Criar rota store no arquivo api.php
+-> FormRequest:
+ php artisan make:request SeuRequest
+
+
 ## Insominia
 
 [![Run in Insomnia}](https://insomnia.rest/images/run.svg)](https://insomnia.rest/run/?label=academia-api&uri=https%3A%2F%2Fraw.githubusercontent.com%2FLucasRonaldo%2Facademia-api%2Fmaster%2Fimsominia.json%3Ftoken%3DGHSAT0AAAAAACGBYEUCQG6JSALHG4MSJIKSZGSEWFA)
