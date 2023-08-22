@@ -22,11 +22,11 @@ Certifique-se de ter os seguintes requisitos atendidos antes de começar a traba
 
 * Cadastro de [Clientes](clientes.md)
 
-* Cadastro de [Fornecedores](fornecedores.md)
+* Cadastro de [Produtoes](Produtoes.md)
 
 * Cadastro de [Funcionarios](funcionarios.md)
 
-* Cadastro de [Produtos](produtos.md)
+* Cadastro de [Produtos](Produtos.md)
 
 
 
