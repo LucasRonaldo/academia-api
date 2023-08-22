@@ -2,7 +2,9 @@
 
 namespace App\Http\Requests;
 
+use Illuminate\Contracts\Validation\Validator;
 use Illuminate\Foundation\Http\FormRequest;
+use Illuminate\Http\Exceptions\HttpResponseException;
 
 class FornecedorRequest extends FormRequest
 {
@@ -22,11 +24,9 @@ class FornecedorRequest extends FormRequest
     public function rules(): array
     {
         return [
-            'nome' => 'required|max:80|min:3',
-            'cpf' => 'required|max:11|min:11|unique:clientes,cpf',
-            'celular'  => 'required|max:15|min:10',
-            'email' => 'required|email|unique:clientes,email',
-            'password'
+            'marca' => 'required|max:80|min:3',
+            'cnpj' => 'required|max:11|min:11|unique:fornecedors,cnpj',
+            'produtos'  => 'required|max:15|min:10'
         ];
     }
 
@@ -38,21 +38,17 @@ class FornecedorRequest extends FormRequest
     }
     public function messages(){
         return[
-'name.required' => 'O campo nome é obrigatorio',
-'nome.max' => 'o campo nome deve conter no maximo 80 caracteres',
-'nome.min' => 'o campo nome deve conter no minimo 5 caracteres',
-'cpf.required' => 'CPF obrigatorio',
-'cpf.max' => 'CPF deve conter no máximo 11 caracteres',
-'cpf.min' => 'CPF deve conter no minimo 11 caracteres',
-'cpf.unique' => 'CPF já cadastrado no cinema',
-'celular.required' => 'Celular obrigatorio',
-'celular.max' => 'Celular deve conter no máximo 15 caracteres',
-'celular.min' => 'Celular deve conter no minimo 10 caracteres',
+'name.required' => 'O campo marca é obrigatorio',
+'marca.max' => 'o campo marca deve conter no maximo 80 caracteres',
+'marca.min' => 'o campo marca deve conter no minimo 5 caracteres',
+'cnpj.required' => 'cnpj obrigatorio',
+'cnpj.max' => 'cnpj deve conter no máximo 11 caracteres',
+'cnpj.min' => 'cnpj deve conter no minimo 11 caracteres',
+'cnpj.unique' => 'cnpj já cadastrado no cinema',
+'produtos.required' => 'produtos obrigatorio',
+'produtos.max' => 'produtos deve conter no máximo 15 caracteres',
+'produtos.min' => 'produtos deve conter no minimo 10 caracteres',
 
-'email.required' => 'E-mail obrigatório',
-'email.email' => 'Formato de email inválido',
-'email.unique' => 'E-mail já cadastrado no sistema',
-'password.required' => 'Senha obrigatoria',
         ];
     }
 }

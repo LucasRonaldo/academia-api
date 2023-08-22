@@ -13,11 +13,10 @@ return new class extends Migration
     {
         Schema::create('fornecedors', function (Blueprint $table) {
             $table->id();
-            $table->string('nome', 80)->nullable(false);
-            $table->string('cpf', 11)->unique(false);
-            $table->float('celular', 15)->nullable(true);
-            $table->string('email', 100)->unique(false);
-            $table->string('password')->nullable(false);
+            $table->string('marca', 80)->nullable(false);
+            $table->string('cnpj', 11)->unique(false);
+            $table->string('produtos', 15)->nullable(true);
+            
             $table->timestamps();
         });
     }

@@ -2,7 +2,10 @@
 
 namespace App\Http\Controllers;
 
+use App\Http\Requests\FornecedorRequest;
+use App\Models\Fornecedor;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Hash;
 
 class fornecedorController extends Controller
 {
@@ -10,16 +13,14 @@ class fornecedorController extends Controller
 
         $user = Fornecedor::create([
           
-                'nome' => $request->nome,
-                'cpf' => $request->cpf,
-                'celular' => $request->celular,
-                'email' => $request->email,
-                'password'=> Hash::make($request->password)
+                'marca' => $request->marca,
+                'cnpj' => $request->cnpj,
+                'produtos' => $request->produtos
                 
         ]);
         return response()->json([
             "success" => true,
-            "message" => "Cliente Cadastrado com sucesso",
+            "message" => "Fornecedor Cadastrado com sucesso",
             "data" => $user
             
         ], 200);

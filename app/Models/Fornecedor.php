@@ -10,10 +10,9 @@ class Fornecedor extends Model
     use HasFactory;
 
     protected $fillable =[
-        'nome',
-        'cpf',
-        'celular',
-        'email',
-        'password'
+        'marca',
+        'cnpj',
+        'produtos'
+        
     ];
 }
